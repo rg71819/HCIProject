@@ -1,0 +1,45 @@
+body{
+    text-align:center;
+}
+.hiddenradio [type=radio] { 
+position: absolute;
+opacity: 0;
+width: 0;
+height: 0;
+}
+.hiddenradio [type=radio] + img {
+cursor: pointer;
+padding: 2px;
+}
+.hiddenradio [type=radio]:checked + img {
+outline: 2px solid #f00;
+}
+.imageLarge:hover{
+    height: 200px;
+    width: 200px;
+}
+.error{
+    background-color: #F45050;
+}
+        /* HIDE RADIO */
+        .hiddenradio [type=radio] { 
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            }
+    
+            /* IMAGE STYLES */
+            .hiddenradio [type=radio] + img {
+            cursor: pointer;
+            padding: 2px;
+            }
+    
+            /* CHECKED STYLES */
+            .hiddenradio [type=radio]:checked + img {
+            outline: 2px solid #f00;
+            }
+            .imageLarge:hover{
+                height: 200px;
+                width: 200px;
+            }
